@@ -4,16 +4,16 @@ This is a backend project built with **FastAPI**, **SQLAlchemy**, and **PostgreS
 
 ---
 ## 📁 Project Structure
-fastapi_psql_project/
-├── app/
-│ ├── main.py # FastAPI application entry point
-│ ├── models.py # SQLAlchemy models
-│ ├── schemas.py # Pydantic schemas
-│ ├── crud.py # CRUD logic
-│ ├── database.py # DB session and engine
-│ └── init.py # Package initializer
-├── requirements.txt # Python dependencies
-├── README.md # Project overview
+fastapi_psql_project/  
+├── app/  
+│ ├── main.py # FastAPI application entry point  
+│ ├── models.py # SQLAlchemy models  
+│ ├── schemas.py # Pydantic schemas  
+│ ├── crud.py # CRUD logic  
+│ ├── database.py # DB session and engine  
+│ └── init.py # Package initializer  
+├── requirements.txt # Python dependencies  
+├── README.md # Project overview  
 
 
 ---
@@ -71,7 +71,7 @@ http://127.0.0.1:8000/docs
 ### Sample Request Body (POST /add_user)
 {  
   "name": "bhanu",  
-  "email": "bhanu123@gmail.com"
+  "email": "bhanu123@gmail.com"  
 }
 
 ---
