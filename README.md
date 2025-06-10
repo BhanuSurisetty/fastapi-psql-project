@@ -39,7 +39,7 @@ cd fastapi-psql-project
 
 ### 2. Create virtual environment and activate
 
-python -m venv venv
+python -m venv venv  
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 ---
@@ -49,7 +49,7 @@ pip install -r requirements.txt
 
 ---
 ### 4. Configure Database
-In database.py, update your PostgreSQL URL:
+In database.py, update your PostgreSQL URL:  
 DATABASE_URL = "postgresql://username:password@localhost/dbname"
 
 ---
@@ -69,8 +69,8 @@ http://127.0.0.1:8000/docs
 
 ---
 ### Sample Request Body (POST /add_user)
-{
-  "name": "bhanu",
+{  
+  "name": "bhanu",  
   "email": "bhanu123@gmail.com"
 }
 
